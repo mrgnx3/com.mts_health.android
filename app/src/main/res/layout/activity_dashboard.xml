@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".Dashboard">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/dashboardImage"
+        android:background="@drawable/ireland">
+
+        <Button
+            android:layout_width="123dp"
+            android:layout_height="93dp"
+            android:text="@string/allergen.laws.button.text"
+            android:id="@+id/allergyLawsButton"
+            android:layout_gravity="left|center_vertical" />
+
+        <Button
+            android:layout_width="123dp"
+            android:layout_height="93dp"
+            android:text="@string/compare.button.text"
+            android:id="@+id/compareButton"
+            android:layout_gravity="right|center_vertical" />
+
+        <Button
+            android:layout_width="123dp"
+            android:layout_height="93dp"
+            android:text="@string/allergen.phrasebook.button.text"
+            android:id="@+id/allergenPhrasebookButton"
+            android:layout_gravity="left|bottom" />
+
+        <Button
+            android:layout_width="123dp"
+            android:layout_height="93dp"
+            android:text="@string/personal.risk.logbook.button.text"
+            android:id="@+id/personalRiskLogbookButton"
+            android:layout_gravity="right|bottom" />
+
+        <Spinner
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/listOfCountries"
+            android:layout_gravity="center_horizontal|top"
+            android:spinnerMode="dropdown" />
+
+    </FrameLayout>
+</RelativeLayout>

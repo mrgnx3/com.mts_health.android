@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Allergy Ambassador</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="allergen.laws.button.text">Allergen Laws</string>
+    <string name="compare.button.text">Compare</string>
+    <string name="allergen.phrasebook.button.text">Allergen Phrasebook</string>
+    <string name="personal.risk.logbook.button.text">Personal Risk Logbook</string>
+    <string-array name="list_of_countries">
+        <item>Ireland</item>
+    </string-array>
+</resources>
