@@ -7,7 +7,15 @@
     <string name="compare.button.text">Compare</string>
     <string name="allergen.phrasebook.button.text">Allergen Phrasebook</string>
     <string name="personal.risk.logbook.button.text">Personal Risk Logbook</string>
+    <string name="country_selector">Select Country</string>
+    <string name="list_value_ireland">Ireland</string>
+    <string name="allergen_laws_page_title">Allergen Laws</string>
+    <string name="compare_countries_title">Compare Countries</string>
+    <string name="personal_reaction_journal_title">Reaction Journal</string>
+    <string name="phrasebook_title">Phrasebook</string>
     <string-array name="list_of_countries">
         <item>Ireland</item>
+        <item>USA</item>
+        <item>United Kingdom</item>
     </string-array>
 </resources>

@@ -3,4 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools" tools:context=".Dashboard">
     <item android:id="@+id/action_settings" android:title="@string/action_settings"
         android:orderInCategory="100" app:showAsAction="never" />
+    <group android:id="@+id/country_selector" android:title="@string/country_selector" android:orderInCategory="100" app:showAsAction="never">
+        <item android:orderInCategory="@android:integer/config_mediumAnimTime" android:id="@+id/list_item_ireland" android:title="@string/list_value_ireland">Ireland</item>
+    </group>
+
 </menu>

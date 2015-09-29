@@ -18,6 +18,7 @@
             android:layout_width="123dp"
             android:layout_height="93dp"
             android:text="@string/allergen.laws.button.text"
+            android:onClick="navigateToAllergenLawsPage"
             android:id="@+id/allergyLawsButton"
             android:layout_gravity="left|center_vertical" />
 
@@ -25,12 +26,14 @@
             android:layout_width="123dp"
             android:layout_height="93dp"
             android:text="@string/compare.button.text"
+            android:onClick="navigateToCompareCountryLawsPage"
             android:id="@+id/compareButton"
             android:layout_gravity="right|center_vertical" />
 
         <Button
             android:layout_width="123dp"
             android:layout_height="93dp"
+            android:onClick="navigateToPhrasebookPage"
             android:text="@string/allergen.phrasebook.button.text"
             android:id="@+id/allergenPhrasebookButton"
             android:layout_gravity="left|bottom" />
@@ -38,6 +41,7 @@
         <Button
             android:layout_width="123dp"
             android:layout_height="93dp"
+            android:onClick="navigateToPersonalReactionJournalPage"
             android:text="@string/personal.risk.logbook.button.text"
             android:id="@+id/personalRiskLogbookButton"
             android:layout_gravity="right|bottom" />
@@ -47,7 +51,17 @@
             android:layout_height="wrap_content"
             android:id="@+id/listOfCountries"
             android:layout_gravity="center_horizontal|top"
-            android:spinnerMode="dropdown" />
+            android:spinnerMode="dropdown"
+            android:backgroundTintMode="add"
+            android:clickable="false"
+            android:contextClickable="false"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:foregroundTintMode="screen"
+            android:longClickable="false"
+            android:visibility="visible"
+            android:transitionGroup="false"
+            android:touchscreenBlocksFocus="false" />
 
     </FrameLayout>
 </RelativeLayout>
